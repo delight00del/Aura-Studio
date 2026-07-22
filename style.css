@@ -164,9 +164,11 @@ Mobile Me.hero h1{
     max-width:1200px;
     margin:120px auto;
 
-    display:grid;
-    grid-template-columns:repeat(2,1fr);
-    gap:60px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 100px 20px;
     align-items:center;
 }
 
@@ -177,11 +179,13 @@ Mobile Me.hero h1{
     font-family:'Playfair Display',serif;
     margin-bottom:20px;
     color:#8a6d46;
+    text-align: center;
 }
 
 .about-text p{
     margin-bottom:30px;
     color:#555;
+    text-align: center;
 }
 
 @media (max-width:768px){
